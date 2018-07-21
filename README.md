@@ -249,6 +249,8 @@ mission-critical-application $ git checkout master
 Switched to branch 'master'
 ```
 
+**Important** If you are following along with the Learn IDE, you don't have to worry about this next part, because Learn already uses the Atom editor. To merge `new-feature` into `master`, all you need to do is write `git merge new-feature`.
+
 We're about to perform a merge, but we need to do one tiny bit of
 house-keeping. When you run `git merge`, `git` will ask you to create a commit
 to reflect that you've done a merge. By default `git` will look for a default,
